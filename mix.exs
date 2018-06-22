@@ -25,7 +25,9 @@ defmodule Phxgun.Mixfile do
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
       {:phxgun_test, path: "./phxgun_testproj", only: [:dev, :test]},
       {:gun, "~> 1.0.0-pre.5"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:elixometer, github: "pinterest/elixometer"},
+      {:uuid, "~> 1.1"}
     ]
   end
 end
