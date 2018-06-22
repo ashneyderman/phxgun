@@ -33,12 +33,13 @@ defmodule PhxgunTest.Mixfile do
   defp deps do
     [
       {:cowboy, "~> 2.3", override: true},
+      # {:cowboy, "~> 1.0"},
       {:phoenix, github: "phoenixframework/phoenix", override: true},
       {:phoenix_pubsub, github: "phoenixframework/phoenix_pubsub", override: true},
       # {:phoenix, "~> 1.3.0"},
       # {:phoenix_pubsub, "~> 1.0"},
       {:gettext, "~> 0.11"},
-      # {:cowboy, "~> 1.0"}
+      {:timex, "~> 3.3"}
     ]
   end
 end
