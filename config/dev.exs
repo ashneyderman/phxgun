@@ -8,3 +8,14 @@ config :phxgun_test, PhxgunTestWeb.Endpoint,
            adapter: Phoenix.PubSub.PG2]
 
 config :phoenix, :serve_endpoints, true
+
+
+# config :exometer_core, 
+#   report: [reporters: [{:exometer_report_tty1, [:test]}]]
+
+# config :elixometer,
+#   reporter: :exometer_report_tty1,
+#   update_frequency: 5_000,
+#   env: Mix.env,
+#   metric_prefix: "phxgun",
+#   excluded_datapoints: [:median, 999]
